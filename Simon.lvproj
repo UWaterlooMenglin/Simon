@@ -13,8 +13,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="modules" Type="Folder">
-			<Item Name="observer.vi" Type="VI" URL="../observer.vi"/>
-			<Item Name="scheduler.vi" Type="VI" URL="../scheduler.vi"/>
+			<Item Name="Observer.vi" Type="VI" URL="../modules/Observer.vi"/>
+			<Item Name="Scheduler.vi" Type="VI" URL="../modules/Scheduler.vi"/>
 		</Item>
 		<Item Name="supports" Type="Folder">
 			<Item Name="Waypoint.ctl" Type="VI" URL="../supports/Waypoint.ctl"/>
