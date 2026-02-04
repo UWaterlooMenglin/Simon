@@ -13,11 +13,13 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="modules" Type="Folder">
-			<Item Name="analyzer.vi" Type="VI" URL="../analyzer.vi"/>
-			<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-			<Item Name="visualizer.vi" Type="VI" URL="../visualizer.vi"/>
+			<Item Name="observer.vi" Type="VI" URL="../observer.vi"/>
+			<Item Name="scheduler.vi" Type="VI" URL="../scheduler.vi"/>
 		</Item>
-		<Item Name="supports" Type="Folder"/>
+		<Item Name="supports" Type="Folder">
+			<Item Name="Waypoint.ctl" Type="VI" URL="../supports/Waypoint.ctl"/>
+		</Item>
+		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
