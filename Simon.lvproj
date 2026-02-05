@@ -17,6 +17,9 @@
 			<Item Name="Scheduler.vi" Type="VI" URL="../modules/Scheduler.vi"/>
 		</Item>
 		<Item Name="supports" Type="Folder">
+			<Item Name="Bounding Case.ctl" Type="VI" URL="../supports/Bounding Case.ctl"/>
+			<Item Name="Check Boundary.vi" Type="VI" URL="../supports/Check Boundary.vi"/>
+			<Item Name="Collision Box.ctl" Type="VI" URL="../supports/Collision Box.ctl"/>
 			<Item Name="Waypoint.ctl" Type="VI" URL="../supports/Waypoint.ctl"/>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
