@@ -27,6 +27,7 @@
 				<Item Name="Check Boundary.vi" Type="VI" URL="../supports/Check Boundary.vi"/>
 				<Item Name="Display Menu.vi" Type="VI" URL="../supports/Display Menu.vi"/>
 				<Item Name="Initialize.vi" Type="VI" URL="../supports/Initialize.vi"/>
+				<Item Name="Record Players.vi" Type="VI" URL="../supports/Record Players.vi"/>
 			</Item>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
