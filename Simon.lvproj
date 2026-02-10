@@ -12,6 +12,45 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="data" Type="Folder">
+			<Item Name="Down.png" Type="Document" URL="../data/Down.png"/>
+			<Item Name="Down0.png" Type="Document" URL="../data/Down0.png"/>
+			<Item Name="Down1.png" Type="Document" URL="../data/Down1.png"/>
+			<Item Name="Down2.png" Type="Document" URL="../data/Down2.png"/>
+			<Item Name="Down3.png" Type="Document" URL="../data/Down3.png"/>
+			<Item Name="Floor.png" Type="Document" URL="../data/Floor.png"/>
+			<Item Name="Gate0.png" Type="Document" URL="../data/Gate0.png"/>
+			<Item Name="Gate1.png" Type="Document" URL="../data/Gate1.png"/>
+			<Item Name="Gate2.png" Type="Document" URL="../data/Gate2.png"/>
+			<Item Name="Gate3.png" Type="Document" URL="../data/Gate3.png"/>
+			<Item Name="Left.png" Type="Document" URL="../data/Left.png"/>
+			<Item Name="Left0.png" Type="Document" URL="../data/Left0.png"/>
+			<Item Name="Left1.png" Type="Document" URL="../data/Left1.png"/>
+			<Item Name="Left2.png" Type="Document" URL="../data/Left2.png"/>
+			<Item Name="Left3.png" Type="Document" URL="../data/Left3.png"/>
+			<Item Name="Menu.png" Type="Document" URL="../data/Menu.png"/>
+			<Item Name="Menu_Button.png" Type="Document" URL="../data/Menu_Button.png"/>
+			<Item Name="Menu_Button_Selected.png" Type="Document" URL="../data/Menu_Button_Selected.png"/>
+			<Item Name="Right.png" Type="Document" URL="../data/Right.png"/>
+			<Item Name="Right0.png" Type="Document" URL="../data/Right0.png"/>
+			<Item Name="Right1.png" Type="Document" URL="../data/Right1.png"/>
+			<Item Name="Right2.png" Type="Document" URL="../data/Right2.png"/>
+			<Item Name="Right3.png" Type="Document" URL="../data/Right3.png"/>
+			<Item Name="Up.png" Type="Document" URL="../data/Up.png"/>
+			<Item Name="Up0.png" Type="Document" URL="../data/Up0.png"/>
+			<Item Name="Up1.png" Type="Document" URL="../data/Up1.png"/>
+			<Item Name="Up2.png" Type="Document" URL="../data/Up2.png"/>
+			<Item Name="Up3.png" Type="Document" URL="../data/Up3.png"/>
+			<Item Name="Wall.png" Type="Document" URL="../data/Wall.png"/>
+			<Item Name="Wall0.png" Type="Document" URL="../data/Wall0.png"/>
+			<Item Name="Wall1.png" Type="Document" URL="../data/Wall1.png"/>
+			<Item Name="Wall2.png" Type="Document" URL="../data/Wall2.png"/>
+			<Item Name="Wall3.png" Type="Document" URL="../data/Wall3.png"/>
+			<Item Name="Wall4.png" Type="Document" URL="../data/Wall4.png"/>
+			<Item Name="Wall5.png" Type="Document" URL="../data/Wall5.png"/>
+			<Item Name="Wall6.png" Type="Document" URL="../data/Wall6.png"/>
+			<Item Name="Wall7.png" Type="Document" URL="../data/Wall7.png"/>
+		</Item>
 		<Item Name="modules" Type="Folder">
 			<Item Name="Observer.vi" Type="VI" URL="../modules/Observer.vi"/>
 			<Item Name="Scheduler.vi" Type="VI" URL="../modules/Scheduler.vi"/>
@@ -34,6 +73,57 @@
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="My Application" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{EFC337A8-8F57-4EF0-9DE1-AFF58AE9D15D}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{E001BA0B-6FDC-4F20-B0EB-C8B5A076F155}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{DF47582D-97BE-4ADB-B56B-92DC484BCE45}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">My Application</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/My Application</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{ABB36F4F-A2FA-4F0B-A963-C6D1A830548D}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Simon Game.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/My Application/Simon Game.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/My Application/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{11F289A9-71FE-4E10-9680-DFDEC29CA391}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/data</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">National Instruments China</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">My Application</Property>
+				<Property Name="TgtF_internalName" Type="Str">My Application</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2026 National Instruments China</Property>
+				<Property Name="TgtF_productName" Type="Str">My Application</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{768A67B4-D6F3-42E5-97B9-3197D0F7C91B}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Simon Game.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>

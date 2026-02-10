@@ -63,9 +63,3 @@ Password = "pwd"
 Level = 1
 Score = 0
 Highest Score = 0
-
-[new]
-Password = "pwd"
-Level = 3
-Score = 0
-Highest Score = 0
