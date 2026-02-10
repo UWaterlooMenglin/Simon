@@ -21,6 +21,7 @@
 				<Item Name="Bounding Case.ctl" Type="VI" URL="../supports/Bounding Case.ctl"/>
 				<Item Name="Collision Box.ctl" Type="VI" URL="../supports/Collision Box.ctl"/>
 				<Item Name="Internal Data.ctl" Type="VI" URL="../supports/Internal Data.ctl"/>
+				<Item Name="Menu Options.ctl" Type="VI" URL="../supports/Menu Options.ctl"/>
 				<Item Name="Waypoint.ctl" Type="VI" URL="../supports/Waypoint.ctl"/>
 			</Item>
 			<Item Name="utility" Type="Folder">
@@ -28,6 +29,7 @@
 				<Item Name="Display Menu.vi" Type="VI" URL="../supports/Display Menu.vi"/>
 				<Item Name="Initialize.vi" Type="VI" URL="../supports/Initialize.vi"/>
 				<Item Name="Record Players.vi" Type="VI" URL="../supports/Record Players.vi"/>
+				<Item Name="Save Progress.vi" Type="VI" URL="../supports/Save Progress.vi"/>
 			</Item>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
