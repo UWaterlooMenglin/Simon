@@ -90,7 +90,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{ABB36F4F-A2FA-4F0B-A963-C6D1A830548D}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Simon Game.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/My Application/Simon Game.exe</Property>
