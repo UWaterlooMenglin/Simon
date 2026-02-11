@@ -93,7 +93,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{ABB36F4F-A2FA-4F0B-A963-C6D1A830548D}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Simon Game.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/My Application/Simon Game.exe</Property>
@@ -133,37 +133,9 @@
 				<Property Name="Destination[0].tag" Type="Str">{E7A8687A-E353-4C01-837D-519A25F839A1}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">1</Property>
-				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{F8C8E640-A984-4A8E-A6FF-3BD59D38F0E3}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2025 Q3 Patch 3 (64-bit)</Property>
-				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
-				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
-				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI Deployment Framework 2025 (64-bit)</Property>
-				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{E0D3C7F9-4512-438F-8123-E2050457972B}</Property>
-				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2025</Property>
-				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{177872FE-33B1-3448-BB64-E23BE62C0E93}</Property>
-				<Property Name="DistPart[0].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">NI Logos 25.3</Property>
-				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
-				<Property Name="DistPart[0].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI LabVIEW Web Server 2025 (64-bit)</Property>
-				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{5F449D4C-83B9-492E-986B-6B85A29C431D}</Property>
-				<Property Name="DistPart[0].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI mDNS Responder 25.5</Property>
-				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
-				<Property Name="DistPart[0].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">Math Kernel Libraries 2020</Property>
-				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
-				<Property Name="DistPart[0].SoftDep[7].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[7].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[0].SoftDep[7].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
-				<Property Name="DistPart[0].SoftDep[8].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[8].productName" Type="Str">NI TDM Streaming 25.3</Property>
-				<Property Name="DistPart[0].SoftDep[8].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[0].SoftDepCount" Type="Int">9</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str"></Property>
+				<Property Name="DistPart[0].productID" Type="Str"></Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Run-Time Engine 2024 (64-bit)</Property>
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{A87DB6EF-77CB-397F-A762-D95F372FCAD4}</Property>
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">National Instruments China</Property>
@@ -174,9 +146,9 @@
 				<Property Name="INST_defaultDir" Type="Str">{E7A8687A-E353-4C01-837D-519A25F839A1}</Property>
 				<Property Name="INST_installerName" Type="Str">Simon.exe</Property>
 				<Property Name="INST_productName" Type="Str">Simon</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.6</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.7</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">25338003</Property>
+				<Property Name="InstSpecVersion" Type="Str">25000000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">National Instruments China</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{6CD88C46-3029-4DDB-A250-DC1F8773547F}</Property>
