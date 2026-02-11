@@ -36,13 +36,14 @@
 			<Item Name="Right1.png" Type="Document" URL="../data/Right1.png"/>
 			<Item Name="Right2.png" Type="Document" URL="../data/Right2.png"/>
 			<Item Name="Right3.png" Type="Document" URL="../data/Right3.png"/>
-			<Item Name="toggle.wav" Type="Document" URL="../data/toggle.wav"/>
+			<Item Name="Theme.wav" Type="Document" URL="../data/Theme.wav"/>
+			<Item Name="Toggle.wav" Type="Document" URL="../data/Toggle.wav"/>
 			<Item Name="Up.png" Type="Document" URL="../data/Up.png"/>
 			<Item Name="Up0.png" Type="Document" URL="../data/Up0.png"/>
 			<Item Name="Up1.png" Type="Document" URL="../data/Up1.png"/>
 			<Item Name="Up2.png" Type="Document" URL="../data/Up2.png"/>
 			<Item Name="Up3.png" Type="Document" URL="../data/Up3.png"/>
-			<Item Name="walk.wav" Type="Document" URL="../data/walk.wav"/>
+			<Item Name="Walk.wav" Type="Document" URL="../data/Walk.wav"/>
 			<Item Name="Wall.png" Type="Document" URL="../data/Wall.png"/>
 			<Item Name="Wall0.png" Type="Document" URL="../data/Wall0.png"/>
 			<Item Name="Wall1.png" Type="Document" URL="../data/Wall1.png"/>
@@ -92,7 +93,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{ABB36F4F-A2FA-4F0B-A963-C6D1A830548D}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Simon Game.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/My Application/Simon Game.exe</Property>
@@ -173,7 +174,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{E7A8687A-E353-4C01-837D-519A25F839A1}</Property>
 				<Property Name="INST_installerName" Type="Str">Simon.exe</Property>
 				<Property Name="INST_productName" Type="Str">Simon</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.3</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">25338003</Property>
 				<Property Name="MSI_arpCompany" Type="Str">National Instruments China</Property>
