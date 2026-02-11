@@ -36,11 +36,13 @@
 			<Item Name="Right1.png" Type="Document" URL="../data/Right1.png"/>
 			<Item Name="Right2.png" Type="Document" URL="../data/Right2.png"/>
 			<Item Name="Right3.png" Type="Document" URL="../data/Right3.png"/>
+			<Item Name="toggle.wav" Type="Document" URL="../data/toggle.wav"/>
 			<Item Name="Up.png" Type="Document" URL="../data/Up.png"/>
 			<Item Name="Up0.png" Type="Document" URL="../data/Up0.png"/>
 			<Item Name="Up1.png" Type="Document" URL="../data/Up1.png"/>
 			<Item Name="Up2.png" Type="Document" URL="../data/Up2.png"/>
 			<Item Name="Up3.png" Type="Document" URL="../data/Up3.png"/>
+			<Item Name="walk.wav" Type="Document" URL="../data/walk.wav"/>
 			<Item Name="Wall.png" Type="Document" URL="../data/Wall.png"/>
 			<Item Name="Wall0.png" Type="Document" URL="../data/Wall0.png"/>
 			<Item Name="Wall1.png" Type="Document" URL="../data/Wall1.png"/>
@@ -90,7 +92,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{ABB36F4F-A2FA-4F0B-A963-C6D1A830548D}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Simon Game.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/My Application/Simon Game.exe</Property>
@@ -123,6 +125,80 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{768A67B4-D6F3-42E5-97B9-3197D0F7C91B}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Simon Game.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="My Installer" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">Simon</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{E7A8687A-E353-4C01-837D-519A25F839A1}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{F8C8E640-A984-4A8E-A6FF-3BD59D38F0E3}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2025 Q3 Patch 3 (64-bit)</Property>
+				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
+				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI Deployment Framework 2025 (64-bit)</Property>
+				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{E0D3C7F9-4512-438F-8123-E2050457972B}</Property>
+				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2025</Property>
+				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{177872FE-33B1-3448-BB64-E23BE62C0E93}</Property>
+				<Property Name="DistPart[0].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">NI Logos 25.3</Property>
+				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[0].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI LabVIEW Web Server 2025 (64-bit)</Property>
+				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{5F449D4C-83B9-492E-986B-6B85A29C431D}</Property>
+				<Property Name="DistPart[0].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI mDNS Responder 25.5</Property>
+				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[0].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">Math Kernel Libraries 2020</Property>
+				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
+				<Property Name="DistPart[0].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[7].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[0].SoftDep[7].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[0].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[8].productName" Type="Str">NI TDM Streaming 25.3</Property>
+				<Property Name="DistPart[0].SoftDep[8].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[0].SoftDepCount" Type="Int">9</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{A87DB6EF-77CB-397F-A762-D95F372FCAD4}</Property>
+				<Property Name="DistPartCount" Type="Int">1</Property>
+				<Property Name="INST_author" Type="Str">National Instruments China</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/My Installer</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToProject</Property>
+				<Property Name="INST_buildSpecName" Type="Str">My Installer</Property>
+				<Property Name="INST_defaultDir" Type="Str">{E7A8687A-E353-4C01-837D-519A25F839A1}</Property>
+				<Property Name="INST_installerName" Type="Str">Simon.exe</Property>
+				<Property Name="INST_productName" Type="Str">Simon</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
+				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">25338003</Property>
+				<Property Name="MSI_arpCompany" Type="Str">National Instruments China</Property>
+				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
+				<Property Name="MSI_distID" Type="Str">{6CD88C46-3029-4DDB-A250-DC1F8773547F}</Property>
+				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{897D2210-5024-4881-8ED6-2AD5D311A5C1}</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{E7A8687A-E353-4C01-837D-519A25F839A1}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{E7A8687A-E353-4C01-837D-519A25F839A1}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">Simon Game.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Simon Game</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Simon</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{768A67B4-D6F3-42E5-97B9-3197D0F7C91B}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">My Application</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/My Application</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
 		</Item>
 	</Item>
