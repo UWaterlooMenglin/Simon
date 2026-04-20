@@ -1,2 +1,2 @@
-# NOWIS
+# Simon
 
